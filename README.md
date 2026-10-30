@@ -9,7 +9,12 @@ a deep blue app theme with Cobalt2's syntax colors and a matching terminal palet
 
 1. In Orca, open **Settings → Plugins**.
 2. Choose **Add plugin → From a Git URL…** and enter
-   `https://github.com/dawidwetzler/orca-cobalt2-theme.git`.
+
+   ```
+   https://github.com/DawidWetzler/orca-cobalt2-theme#v1.0.0
+   ```
+
+   Keep the `#v1.0.0` at the end: Orca needs a release tag or commit to install.
 3. In **Settings → Appearance**, pick **Cobalt2** as the dark theme, and pick **Cobalt2** as the
    terminal theme.
 
