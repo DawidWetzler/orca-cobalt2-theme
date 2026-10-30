@@ -1,0 +1,50 @@
+{
+  "$schema": "https://raw.githubusercontent.com/stablyai/orca/main/docs/schemas/plugins/orca-plugin.v2.schema.json",
+  "manifestVersion": 2,
+  "id": "cobalt2-theme",
+  "publisher": "dawidwetzler",
+  "name": "Cobalt2 for Orca",
+  "version": "1.0.0",
+  "execution": "data",
+  "description": "Wes Bos’s Cobalt2: a deep blue app theme with yellow, orange and green code colors, plus matching terminal colors.",
+  "author": {
+    "name": "Dawid Wetzler"
+  },
+  "license": "MIT",
+  "engines": {
+    "orca": ">=1.4.245"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "id": "cobalt2",
+        "title": "Cobalt2",
+        "path": "themes/cobalt2.json"
+      }
+    ],
+    "terminalThemes": [
+      {
+        "id": "cobalt2",
+        "title": "Cobalt2",
+        "path": "terminal/cobalt2.json"
+      }
+    ]
+  },
+  "capabilities": [],
+  "cover": {
+    "path": "images/cover.png",
+    "alt": "Orca in the Cobalt2 theme, showing a JavaScript file with Cobalt2 syntax colors"
+  },
+  "screenshots": [
+    {
+      "path": "images/editor.png",
+      "alt": "A JavaScript router file in the Orca editor with Cobalt2 syntax colors",
+      "caption": "JavaScript in the editor"
+    },
+    {
+      "path": "images/terminal.png",
+      "alt": "npm test output in the Orca terminal with the Cobalt2 palette",
+      "caption": "Terminal colors"
+    }
+  ]
+}
